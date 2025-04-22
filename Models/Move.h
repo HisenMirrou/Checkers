@@ -33,4 +33,4 @@ struct move_pos
     {
         return !(*this == other);
     }
-};
+}; 

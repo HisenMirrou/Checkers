@@ -30,3 +30,4 @@ class Config
   private:
     json config;
 };
+ 

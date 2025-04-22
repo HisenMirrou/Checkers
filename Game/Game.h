@@ -319,4 +319,4 @@ private:
     Logic logic;          // Игровая логика
     int beat_series;      // Счетчик серии взятий
     bool is_replay = false; // Флаг повтора игры
-};
+}; 

@@ -223,7 +223,7 @@ private:
         // Возвращаем оптимальную оценку в зависимости от глубины
         return (depth % 2 ? max_score : min_score);
     }
-
+     
 public:
     // поиск возможных ходов для определенного цвета
     void find_turns(const bool color)
