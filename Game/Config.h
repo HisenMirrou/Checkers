@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <fstream>
 #include <nlohmann/json.hpp>
 using json = nlohmann::json;
@@ -8,13 +8,13 @@ using json = nlohmann::json;
 class Config
 {
   public:
-      // Загружает настройки из файла settings.json .
+      // Р—Р°РіСЂСѓР¶Р°РµС‚ РЅР°СЃС‚СЂРѕР№РєРё РёР· С„Р°Р№Р»Р° settings.json .
     Config()
     {
         reload();
     }
 
-    // Загружает JSON-файл settings.json в переменную config.
+    // Р—Р°РіСЂСѓР¶Р°РµС‚ JSON-С„Р°Р№Р» settings.json РІ РїРµСЂРµРјРµРЅРЅСѓСЋ config.
     void reload()
     {
         std::ifstream fin(project_path + "settings.json");
